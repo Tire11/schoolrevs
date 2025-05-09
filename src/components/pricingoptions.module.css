@@ -1,0 +1,68 @@
+.cardStyle {
+  height: 650px;
+  padding: 32px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.cardStyle2 {
+  height: 650px;
+  padding: 32px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #9447d6;
+}
+
+.buttonStyleLite {
+  background-color: #f1e9fb;
+  color: #4c1979;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.buttonStylePro {
+  background-color: #6f2dbd;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.listStyle {
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 16px;
+  color: #333;
+}
+
+.listItemStyle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.iconStyle {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.iconStyle2 {
+  width: 16px;
+  height: 16px;
+  margin-right: 7px;
+  object-fit: contain;
+}

@@ -1,0 +1,146 @@
+/* .firstSection {
+  background-color: #461d59;
+}
+
+.heading {
+  color: white;
+  font-size: 64px;
+  font-weight: 800;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding-top: 50px; 
+} */
+
+.heroSection {
+  background-color: #461d59;
+  color: white;
+  padding: 50px 0;
+  /* border: 1px solid red; */
+  height: 700px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  /* border: 1px solid red; */
+  justify-content: space-around;
+}
+
+.heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-top: 0px !important;
+}
+
+.description {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 22px;
+}
+
+.studentButton {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.studentButton:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.parentButton {
+  background-color: white;
+  color: #6d318a;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.parentButton:hover {
+  background-color: #f3f3f3;
+}
+
+.dashboardImg {
+  width: 90%;
+  margin: 0px auto;
+  position: relative;
+  top: 10px;
+}
+
+@media (max-width: 980px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  .buttonGroup {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 426px) {
+  .wrapper {
+    justify-content: space-around;
+    /* border: 1px solid blue; */
+  }
+
+  .heading {
+    font-size: 32px !important;
+    font-size: 700;
+  }
+
+  .headingSibling {
+    /* border: 1px solid green; */
+    /* padding-left: 10px; */
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .break {
+    display: none;
+  }
+  .studentButton {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 12px;
+  }
+  .parentButton {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 12px;
+  }
+}
+@media (max-width: 376px) {
+  .heading {
+    font-size: 25px !important;
+  }
+
+  .headingSibling p {
+    /* border: 1px solid green; */
+    /* padding-left: 5px; */
+    font-size: 14px;
+  }
+  .studentButton {
+    width: 100%;
+  }
+  .parentButton {
+    width: 100%;
+  }
+}

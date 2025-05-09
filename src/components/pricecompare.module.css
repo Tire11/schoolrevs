@@ -1,0 +1,91 @@
+.buttonStylingOne {
+  background-color: #f1e9fb;
+  color: #4c1979;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.buttonStylingTwo {
+  background-color: #6f2dbd;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.checkStyle {
+  background-color: #fafafb;
+}
+
+.schoolLite {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.free {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #743790;
+}
+
+.freeSpan {
+  display: none;
+}
+
+@media (max-width: 770px) {
+  .buttonStylingOne {
+    display: none;
+  }
+  .buttonStylingTwo {
+    display: none;
+  }
+
+  .freeOkay {
+    display: none;
+  }
+
+  .freeSpan {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+  }
+
+  .free {
+    display: none;
+  }
+
+  .schoolLite {
+    flex-direction: column;
+    align-items: inherit;
+  }
+
+  .iconCell {
+    display: none;
+  }
+
+  .tableHead {
+    display: none;
+  }
+
+  .textAlign {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .freeOnly {
+    border-bottom: 2px solid #743790;
+  }
+}

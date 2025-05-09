@@ -1,0 +1,60 @@
+.cardGreat {
+  background-color: #461d59;
+  border-radius: 12px;
+  padding: 40px 30px;
+  color: #fff;
+  margin: 50px auto;
+  width: 90%;
+}
+.sideLogo {
+  width: 40%;
+  height: auto;
+}
+
+.elipseBackImage {
+  background-image: url("../../assets/Ellipse.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.button button {
+  background-color: #fff;
+  color: #4b1c68;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+}
+
+@media (max-width: 650px) {
+  .cardGreat h2 {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  .cardGreat p {
+    text-align: center;
+    font-size: 14px;
+  }
+  .cardGreat .button {
+    text-align: center;
+  }
+  .sideLogo {
+    display: none;
+  }
+}
+
+@media (max-width: 426px) {
+  .quickLinks {
+    margin-top: 0px !important;
+  }
+
+  .contact {
+    margin-top: 0px !important;
+  }
+
+  .phone {
+    margin-top: 0px !important;
+  }
+}

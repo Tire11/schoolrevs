@@ -1,0 +1,94 @@
+.contactContainer {
+  padding: 60px 20px;
+  width: 90%;
+  margin: 0px auto;
+}
+
+.contactRow {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.contactForm {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contactHeading {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.formTextarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  height: 150px;
+}
+
+.sendButton {
+  background-color: #6a2c91;
+  color: white;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.contactInfo {
+  flex: 0 0 300px;
+  margin-top: 65px;
+}
+
+.infoHeading {
+  color: #6a2c91;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.infoText {
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contactRow {
+    flex-direction: column;
+  }
+
+  .contactInfo {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 324px) {
+  .formInput {
+    width: 90%;
+  }
+  .formTextarea {
+    width: 90%;
+  }
+  .sendButton {
+    width: 90%;
+  }
+
+  .contactForm {
+    min-width: 100%;
+    border: 1px solid red;
+  }
+}

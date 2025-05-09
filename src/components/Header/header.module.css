@@ -1,0 +1,124 @@
+.header {
+  background-color: #461d59;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 10;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+.nav .imageDive {
+  padding-top: 10px;
+}
+.nav .navItems {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 30%;
+  padding-top: 10px;
+}
+.nav .divButton button {
+  height: 50px;
+}
+.btnCustom {
+  background-color: #f2af10;
+  color: white;
+  border: none;
+  width: 167;
+  height: 60;
+  padding-top: 11px;
+  padding-right: 28px;
+  padding-bottom: 16px;
+  padding-left: 28px;
+  border-radius: 12px;
+}
+.btnCustom:hover {
+  background-color: #d9960a;
+}
+
+/* Hamburger Styles */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/* Default Hidden Menu */
+.menuContent {
+  display: none;
+}
+
+/* Show menu when toggled */
+.show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background-color: #461d59;
+  padding: 20px 0;
+}
+/* Mobile-specific styles */
+@media screen and (max-width: 700px) {
+  .moveDown {
+    margin-bottom: 300px;
+    /* transform: translateY(0); */
+    transition: margin-bottom 0.4s ease;
+  }
+
+  .moveuUp {
+    margin-bottom: initial;
+    /* transform: translateY(-100%); */
+    transition: margin-bottom 0.4s ease;
+  }
+
+  .hamburger {
+    display: flex;
+    padding-top: 10px;
+  }
+
+  .nav .divButton {
+    display: none;
+  }
+
+  .nav .navItems {
+    display: none;
+  }
+
+  .nav .imageDive {
+    padding-top: 0px;
+  }
+
+  .header {
+    border-bottom: 1px solid gray;
+  }
+
+  .nav {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  /* .navItems a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .divButton {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .divButton button {
+    width: 80%;
+  } */
+}

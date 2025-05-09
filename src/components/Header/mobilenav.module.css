@@ -1,0 +1,86 @@
+.mobileHeader {
+  display: none;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .mobileHeader {
+    background-color: #fff;
+  }
+
+  .parentMobileNav {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .sliderDown {
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+  }
+
+  .sliderUp {
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    pointer-events: none;
+    position: absolute;
+  }
+
+  .mobileHeader {
+    display: block;
+    width: 65%;
+    margin: 0px auto;
+  }
+
+  .divButton {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divButton button {
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  .divButton .buttonOne {
+    background-color: #f7eefb;
+    color: #743790;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    padding-top: 6px;
+    padding-right: 28px;
+    padding-bottom: 6px;
+    padding-left: 28px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+  }
+
+  .divButton .buttonTwo {
+    background-color: #f2af10;
+    color: #fcf5ff;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    padding-top: 6px;
+    padding-right: 28px;
+    padding-bottom: 6px;
+    padding-left: 28px;
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 324px) {
+  .divButton .buttonOne {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}

@@ -1,0 +1,38 @@
+.firstText {
+  background-color: #fff7e6;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px 15px;
+  margin-bottom: 15px;
+}
+
+.lead {
+  border: 1px #783da2;
+}
+
+.leftWing {
+  margin-bottom: 170px;
+}
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstRightWing {
+  border-radius: 24px;
+}
+
+.secondRightwing {
+  border-radius: 24px;
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.rightWing {
+  background-color: white;
+  height: 200px;
+  border-radius: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
