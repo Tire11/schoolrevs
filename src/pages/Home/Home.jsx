@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./home.module.css"
+import { Helmet } from "react-helmet"
 import WhatWeOffer from '../../components/WhatWeOffer';
 import WhyChooseUs from '../../components/WhyChooseUs';
 import HowItWorks from '../../components/HowItWorks';
@@ -10,6 +11,11 @@ import dashboardImg from '../../assets/School-Fees.png';
 const Home = () => {
     return (
         <>
+            <Helmet>
+
+                <title>Home - Page</title>
+
+            </Helmet>
             <section className={styles.heroSection}>
                 <div className={styles.wrapper}>
                     {/* Left Side - Heading */}

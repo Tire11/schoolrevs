@@ -6,6 +6,7 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 import Pricing from "./pages/Pricing"
 import ContactUs from "./pages/ContactUs"
 import SecondaryLayout from "./layout/SecondaryLayout"
+import './App.css';
 
 
 function App() {
