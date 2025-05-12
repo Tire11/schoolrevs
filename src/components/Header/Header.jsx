@@ -29,7 +29,7 @@ const Header = () => {
                     <div className={`${styles.navItems} ${menuOpen ? styles.showMenu : ''}`}>
                         <span><a href="/" className="text-decoration-none text-white">Home</a></span>
                         <span><a href="/pricing" className="text-decoration-none text-white">Pricing</a></span>
-                        <span><a href="/school-revs" className="text-decoration-none text-white">SchoolRevs</a></span>
+                        <span><a href="/school-revs" className="text-decoration-none text-white">Contact</a></span>
                     </div>
 
                     <div className={styles.divButton}>
