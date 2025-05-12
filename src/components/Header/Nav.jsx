@@ -30,7 +30,7 @@ const Header = () => {
                     <div className={`${styles.navItems} ${menuOpen ? styles.showMenu : ''}`}>
                         <span><a href="/" className="text-decoration-none text-black">Home</a></span>
                         <span><a href="/pricing" className="text-decoration-none text-black">Pricing</a></span>
-                        <span><a href="/school-revs" className="text-decoration-none text-black">SchoolRevs</a></span>
+                        <span><a href="/school-revs" className="text-decoration-none text-black">Contact</a></span>
                     </div>
 
                     <div className={styles.divButton}>

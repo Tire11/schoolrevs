@@ -1,10 +1,16 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import PricingOptions from '../components/PricingOptions'
 import PricingCompare from '../components/PricingCompare'
 
 const Pricing = () => {
     return (
         <>
+            <Helmet>
+
+                <title>Pricing - Page</title>
+
+            </Helmet>
             <section>
                 <div className="text-center pt-5">
                     {/* Highlight label */}
